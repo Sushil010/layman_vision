@@ -70,3 +70,33 @@ Everything worth tuning is in `config.py`. The two main ones:
 `SPEED_THRESHOLD = 8`: how fast the racket needs to be moving before we consider it a real swing. Mihgt need raise this if random movement is triggering shots, lower this value if actual shots are being missed.
 
 `COOLDOWN_FRAMES = 15`: how many frames to ignore after a shot fires. At 30fps that's about half a second. Raise it if there is duplicate shots from the same swing.
+
+## Sample outputs
+`
+[
+  {
+    "frame": 14,
+    "timestamp": 0.56,
+    "shot_type": "forehand",
+    "bounce": false
+  },
+  {
+    "frame": 140,
+    "timestamp": 5.6,
+    "shot_type": "backhand",
+    "bounce": false
+  },
+  {
+    "frame": 156,
+    "timestamp": 6.24,
+    "shot_type": "backhand",
+    "bounce": false
+  }]
+`
+### Chart image
+<img width="631" height="481" alt="image" src="https://github.com/user-attachments/assets/26c505c6-b78f-43a4-9529-cadeceb65982" />
+
+### Tracking process
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/7b98cdd1-ff3a-4a2d-b2b5-f1756b4ffb96" />
+
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/8c3aa5c3-38da-4416-885f-01b82e6cd68a" />
