@@ -1,0 +1,5 @@
+venv
+detect/*__pycache__
+detect/*.json
+detect/*.csv
+detect/*.mp4
